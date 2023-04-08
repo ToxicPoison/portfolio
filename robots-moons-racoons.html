@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Kyle's Portfolio</title>
+        <title>Robots Moons Raccoons</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
 
         <script src="components/header.js" type="text/javascript" defer></script>
@@ -17,25 +17,15 @@
         
         <header-component></header-component>
 
-        <p>Some strange stuff goes on in this part of town.</p>
-
-        <div class="project"
-         style="background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1)), url('assets/robomoonracc_moon_city.png');
-         background-size: cover;">
-            <a href="robots-moons-racoons.html" target="_blank"><img src="assets/robots_moons_raccoons_logo_ALPHA.png"></a>
-            <p>
-                Rivaling robot companies meet Earth's raccoon people, and shenanigans ensue...
-            </p>
-        </div>
-
-        <div class="project"
-         style="background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1)), url('assets/plumpalm-bg.png');
-         background-size: cover;">
-            <a href="" target="_blank"><img style="width: 100vw; max-width:1024px" src="assets/PLUMPALM_logo_SOLID.png"></a>
-            <p>
-                Cartoon animals who live in an urban hellscape.
-            </p>
-        </div>
+        <h2> THE HOUR IS LATE... </h2>
+        <img style="margin-top:20px, margin-bottom:20px", src="assets/robots_moons_raccoons_logo_ALPHA.png">
+        <p>
+            On a faraway world, a forgotten timer goes off. Within seconds, myriads of androids are awoken. Bad news for a civilization who has lost all desire to travel the stars.
+        </p>
+        <h2> TWO WORLDS... </h2>
+        <p>
+            Earth and its moon are the only homes for the cartoon raccoon people of this universe (more about that later). Unfortunately, these little guys have lost all desire to sail the stars.
+        </p>
 
     </body>
 </html>
@@ -58,6 +48,8 @@
 
     body {
         background-color:black;
+        background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)), url("assets/robomoonracc_moon_city.png");
+        background-size: cover;
         padding: 20px;
         margin-top: 250px;
         text-align: left;
@@ -67,14 +59,20 @@
     
     p{
         text-align: justify;
+        max-width: 1024px;
+        line-break: 12em;
     }
 
     body img{
-        
         width:50vw;
         max-width: 512px;
         height:25vw;
         max-height: 256px;
+    }
+
+    h2{
+        margin-top: 80px;
+        margin-bottom: 10px;
     }
 
     .project{
