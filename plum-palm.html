@@ -17,55 +17,79 @@
         
         <header-component></header-component>
 
-        <div class="back-reveal"
-         style="background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)), url('assets/robomoonracc_moon_city.png');
-         background-size: cover;">
-            <h2> WHEN PUSH COMES TO SHOVE... </h2>
-            <img style="margin-top:20px; margin-bottom:20px", src="assets/XPRESENTS_logo_isolated.png">
-            <p>
-                A cartoon about robots following instructions given to them by raccoon people.
-            </p>
+        <div class="back-reveal">
+            <div class="clearfix" style="padding-top:250px; padding-bottom:250px">
+
+                <div class="proj-container">
+                    <div class="proj-padded", style="background-color: black; color:white">
+                        <img class="logo", src="assets/XPRESENTS_logo_isolated.png">
+                        <p>
+                            A cartoon about animal people in urban hell. Originally a one-off
+                            Christmas cartoon, this film came out almost a year after its 
+                            intended release.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="proj-container">
+                    <div class="proj-padded", style="background-color: white; color: black; border-color:black;">
+                        <img class="logo", src="assets/PLUMPALM_logo_isolated.png", style="filter:invert()">
+                        <p>
+                            The grand sequel! Split into 3 parts, this series
+                            covers the adventures of XPresents' cast as they go on
+                            vacation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <iframe class="showcase-img" style="height: 18vw; width:32vw; max-width: 512px;"
+                src="https://www.youtube.com/embed/RMfGczGbpAM">
+            </iframe> 
+            <iframe class="showcase-img" style="height: 18vw; width:32vw; max-width: 512px;"
+                src="https://www.youtube.com/embed/YPzOm47xn0A">
+            </iframe> 
+            
+
         </div>
 
 
 
+        <div class="container">
+            <h2>USING BLENDER!</h2>
+            <img class="showcase-img" src="assets/plumpalm/xpresents-wip.png">
+            <img class="showcase-img" src="assets/plumpalm/plumpalm-wip.png">
+            <p>
+                Blender's Grease Pencil allows for elaborate animations with effects, inherited color palettes, etcetera.
+                Blender has also been used for the video editing, making the animatic, and for compositing.
+            </p>
+        </div>
+        
+        <div class="container" style="background-color: whitesmoke; color:black;">
+            <h2>USING KRITA!</h2>
+            <img class="showcase-img" src="assets/plumpalm/s4_plumpalm_islands_upd.png">
+            <img class="showcase-img" src="assets/plumpalm/emma-punched.png">
+            <p>
+                Many of the complex backgrounds in XPresents and Plum Palm were painted in Krita, a free and open source digital art program.
+            </p>
+        </div>
 
-        <h2>WITH BLENDER.</h2>
+        <div class="container" style="background-color: rgb(30, 30, 30); color:white;">
+            <h2>USING AUDACITY! ... USING LMMS! ... USING SOUNDLY!</h2>
+            <p>
+                Audacity is a free sound recording/editing software.
+            </p>
+            <img class="showcase-img" src="assets/plumpalm/lmms-example.png">
+            <p>
+                LMMS is also a free software, and was used for producing all of the music.
+            </p>
+            <p>
+                Soundly provides many sound effects using several libraries on the cloud.
+            </p>
+        </div>
 
-
-        <img src="assets/pear_render.png" alt="A raccoon character."
-            style="float:none;width:270px;height:405px;max-width: 270px;max-height: 405px;">
-        <p class="clearfix">
-            Robots Moons Raccoons is a 3D animated series made primarily in Blender.
-            Using Blender's library system, complex scenes and characters are efficiently reused across multiple files.
-            Blender's rigify addon allows for characters to be quickly rigged and posed naturally.
-        </p>
 
         
-        <img src="assets/spherule_cubil.png" alt="Two confused robots standing in room with Saturn visible out the window."
-            style="float:none;width:480px;height:270px;max-width: 480px;max-height: 270px;">
-        <p class="clearfix">
-            With Blender's EEVEE real-time rendering engine, scenes can be handsomely rendered in stunning detail <i>without</i> render farms.
-        </p>
-
-
-
-
-        <div class="back-reveal"
-         style="background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)), url('assets/robomoonracc_moon_city.png');
-         background-size: cover;">
-            <h2> IT ALL STARTED WITH DR. HERBAL </h2>
-            <p>
-                This man sent robots to the moons of Saturn to mine rocks for 40 years, intending to sell them later.
-            </p>
-            <p>
-                What he did not expect was what happened back at home in the meantime.
-            </p>
-            <h2> RACCOONS? </h2>
-            <p>
-                Raccoon people inhabit Earth and its moon. No humans. This is a cartoon, we can't have humans.
-            </p>
-        </div>
 
         
 
@@ -77,10 +101,14 @@
 
 
 <style>
+    * {
+        box-sizing: border-box;
+    }
+
     html{
         background: rgb(5, 6, 8);
         /* background-color: rgba(0, 0, 0, 0.0); */
-        background-image: linear-gradient(to left, rgba(0,0,0,0.0), rgba(0,0,0,1.0)), url("assets/mimas_render.png");
+        background-image: linear-gradient(to left, rgba(0,0,0,0.0), rgba(0,0,0,1.0)), url("assets/plumpalm/s3_buildingbase.png");
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size:cover;
@@ -111,7 +139,14 @@
     body img{
         width:50vw;
         max-width: 1024px;
+        height:auto;
         margin: auto;
+    }
+
+    .showcase-img{
+        margin:2vmin;
+        border-radius: 1vmin;
+        box-shadow:0px 0px 8vmin -2vmin black;
     }
 
     h2{
@@ -121,7 +156,7 @@
 
     .back-reveal{
         background-color:black;
-        background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)), url("assets/robomoonracc_moon_city.png");
+        background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)), url("assets/plumpalm/s4_bridgeport_coast.png");
         background-size: cover;
         background-attachment: fixed;
         padding:50px;
@@ -130,17 +165,46 @@
         margin-top: 0px;
         margin-bottom: 0px;
         max-width: 1600px;
+        border-radius: 1vmin;
         aspect-ratio: 16 / 7;
     }
     
-    .clearfix{
-        overflow: auto;
+    .clearfix::after{
+        content: "";
+        clear: both;
+        display: table;
     }
 
     .para-pause{
         margin-bottom: 100px;
     }
 
+    .logo{
+        margin-top:20px;
+        margin-bottom:20px;
+        width:100%;
+    }
+
+    .proj-container{
+        float: left;
+        width: 50%;
+        padding: 5px;
+    }
+
+    .proj-padded{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 2vmin;
+        border-width: 0px;
+        border-style:solid;
+        border-color: white;
+    }
+
+    .container{
+        border-radius: 1vmin;
+        padding-bottom: 20vmin;
+        padding-top: 20vmin;
+    }
 
     /* .project p{
         background-color: black;
