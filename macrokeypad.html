@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Macro Keypad</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+
+        <script src="components/header.js" type="text/javascript" defer></script>
+    </head>
+    
+    <body>        
+        <header-component></header-component>
+
+        <div class="container">
+            <h2>My Macro Keypad</h2>
+            <p>
+                WIP
+            </p>
+            <img class="showcase-img" src="assets/kmk/kmk-on-quarter-focus.webp">
+            <p>
+                (What is it?)
+            </p>
+            <img class="showcase-img" src="assets/kmk/kmk-misc.webp">
+            <p>
+                (Why did you make this? How did you figure out where to begin?)
+            </p>
+            <video controls class="showcase-img">
+                <source src="assets/kmk/kmk-short-demo.mp4" type="video/mp4">
+            </video>
+            <img class="showcase-img" src="assets/kmk/kmk-back-quarter-unplugged.webp">
+            <p>
+                (What did you learn when making this? What are you most proud of here?)
+            </p>
+            <img class="showcase-img" src="assets/kmk/kmk-bare-facedown.webp">
+            <img class="showcase-img" src="assets/kmk/kmk-wires-right.webp">
+            <p>
+                (Show some of the models in CAD)
+            </p>
+            <p>
+                (What would you do differently?)
+                <br>
+                Source code: https://github.com/ToxicPoison/symbol-macro-keypad
+            </p>
+        </div>       
+
+        
+
+    </body>
+</html>
+
+
+
+
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    html{
+        background: rgb(5, 6, 8);
+        /* background-color: rgba(0, 0, 0, 0.0); */
+        background-image: linear-gradient(to left, rgba(0,0,0,0.0), rgba(0,0,0,1.0)), url("assets/plumpalm/s3_buildingbase.png");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size:cover;
+        font-family: 'Poppins', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: whitesmoke;
+    }
+
+
+    body {
+        background-color:black;
+        padding: 20px;
+        margin-top: 250px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70vw;
+    }
+
+    p{
+        text-align: center;
+        max-width: 1024px;
+        line-break: 12em;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    body img{
+        width:50vw;
+        max-width: 1024px;
+        height:auto;
+        margin: auto;
+    }
+
+    .showcase-img{
+        margin:2vmin;
+        border-radius: 1vmin;
+        box-shadow:0px 0px 8vmin -2vmin black;
+    }
+
+    h2{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .back-reveal{
+        background-color:black;
+        background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)), url("assets/plumpalm/s4_bridgeport_coast.png");
+        background-size: cover;
+        background-attachment: fixed;
+        padding:50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        max-width: 1600px;
+        border-radius: 1vmin;
+        aspect-ratio: 16 / 7;
+    }
+    
+    .clearfix::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .para-pause{
+        margin-bottom: 100px;
+    }
+
+    .logo{
+        margin-top:20px;
+        margin-bottom:20px;
+        width:100%;
+    }
+
+    .proj-container{
+        float: left;
+        width: 50%;
+        padding: 5px;
+    }
+
+    .proj-padded{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 2vmin;
+        border-width: 0px;
+        border-style:solid;
+        border-color: white;
+    }
+
+    .container{
+        border-radius: 1vmin;
+        padding-bottom: 20vmin;
+        padding-top: 20vmin;
+    }
+
+    /* .project p{
+        background-color: black;
+        padding: 10px;
+    } */
+</style>
