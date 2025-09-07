@@ -8,7 +8,7 @@ class Header extends HTMLElement {
             <header>
                 <a href="index.html">
                 <h1>
-                    KYLE
+                    KYLE STUFF
                 </h1>
                 </a>
             </header>
@@ -29,7 +29,7 @@ class Header extends HTMLElement {
                     padding-bottom: 0px;
                 }
                 header h1{
-                    font-size:5em;
+                    font-size:3em;
                     text-align: left;
                     color:whitesmoke;
                 }
